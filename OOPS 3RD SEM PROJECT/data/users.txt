@@ -1,0 +1,5 @@
+# Role|ID|Username|Password|FullName|RollNumber|Enrollment|Semester|Branch|Section|Extra
+CR|u_cr01|priyanshu_cr|priyanshu123|Priyanshu Raj (CR)|25008258|GGV/25/234/0064|3|Information Technology|IT-B|2026-2027
+STUDENT|u_st01|prakash|prakash123|Prakash Kumar|25008258|GGV/25/234/0065|3|Information Technology|IT-B
+STUDENT|u_st02|ravikant|ravi123|Ravikant|25008264|GGV/25/234/0088|3|Information Technology|IT-B
+STUDENT|u_st4|neha_s|neha123|Neha Sharma|23ITB50|0101IT231050|3|Information Technology|IT-B

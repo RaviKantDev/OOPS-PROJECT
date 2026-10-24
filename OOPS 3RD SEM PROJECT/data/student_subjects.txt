@@ -1,0 +1,4 @@
+# StudentID|CustomSubjectName
+u_st01|Data Structures Lab (C++)
+u_st01|Network Security Elective
+u_st02|Python Programming Elective
