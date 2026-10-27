@@ -31,9 +31,9 @@
 
 | Role | Name | Username | Password | Roll Number | Enrollment Number |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Class Representative (CR)** | **Priyanshu Raj (CR)** | `priyanshu_cr` | `priyanshu123` | `23ITB01` | `0101IT231001` |
+| **Class Representative (CR)** | **Priyanshu Raj (CR)** | `priyanshu_cr` | `priyanshu123` | `25008258` | `GGV/25/234/0064` |
 | **Classmate (Student 1)** | **Prakash Kumar** | `prakash` | `prakash123` | `23ITB25` | `0101IT231025` |
-| **Classmate (Student 2)** | **Ravikant** | `ravikant` | `ravi123` | `23ITB38` | `0101IT231038` |
+| **Classmate (Student 2)** | **Ravikant** | `ravikant` | `ravi123` | `25008264 | `GGV/25/234/0088` |
 
 *(New student accounts can also be registered directly on the portal)*
 
@@ -55,15 +55,15 @@
 ```
 
 ### Module Breakdown:
-1. **Team Member 1 — Authentication, RBAC & Profile Management:**
+1. **Ravikant — Authentication, RBAC & Profile Management:**
    - **Files:** [`include/Member1_UserAuth.h`](file:///d:/OOPS%203RD%20SEM%20PROJECT/include/Member1_UserAuth.h) & [`src/Member1_UserAuth.cpp`](file:///d:/OOPS%203RD%20SEM%20PROJECT/src/Member1_UserAuth.cpp)
    - **Concepts:** Abstract Base Class (`User`), Pure Virtual Function (`getRoleName()`), Inheritance (`Student`, `ClassRepresentative`), Polymorphic Permission Dispatch, Profile editing (roll no, enrollment no, semester), and File Persistence (`data/users.txt`).
 
-2. **Team Member 2 — Assignment Management Hub:**
+2. **Prakash Kumar — Assignment Management Hub:**
    - **Files:** [`include/Member2_AssignmentHub.h`](file:///d:/OOPS%203RD%20SEM%20PROJECT/include/Member2_AssignmentHub.h) & [`src/Member2_AssignmentHub.cpp`](file:///d:/OOPS%203RD%20SEM%20PROJECT/src/Member2_AssignmentHub.cpp)
    - **Concepts:** Class Encapsulation, Operator Overloading (`operator<` for sorting by deadline, `operator<<` for output stream), Composition (`AssignmentManager`), Submission Medium Filters, and File Persistence (`data/assignments.txt`).
 
-3. **Team Member 3 — Attendance Engine, Dynamic Subjects & Bunk Math:**
+3. **Priyanshu Raj — Attendance Engine, Dynamic Subjects & Bunk Math:**
    - **Files:** [`include/Member3_AttendanceTracker.h`](file:///d:/OOPS%203RD%20SEM%20PROJECT/include/Member3_AttendanceTracker.h), [`src/Member3_AttendanceTracker.cpp`](file:///d:/OOPS%203RD%20SEM%20PROJECT/src/Member3_AttendanceTracker.cpp), and [`include/CommonUtils.h`](file:///d:/OOPS%203RD%20SEM%20PROJECT/include/CommonUtils.h)
    - **Concepts:** Custom Exception Hierarchy (`FutureDateException`, `WeekendException`, `HolidayException`), Calendar Math (Zeller's Congruence), Dynamic Subject Addition (`data/student_subjects.txt`), Predictive Safe Miss & Recovery Formulas, and File Persistence (`data/attendance.txt`, `data/holidays.txt`).
 
@@ -79,7 +79,7 @@ run_server.bat
 * Compiles the C++ web server and launches it on `http://localhost:8080`.
 * Opens your browser automatically!
 
-### Option 2: Interactive Terminal CLI Mode (For Professor Viva)
+### Option 2: Interactive Terminal CLI Mode 
 Double-click:
 ```cmd
 run_cli.bat
